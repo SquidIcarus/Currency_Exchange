@@ -4,11 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currency Exchange</title>
 </head>
 
 <body>
+    <div class="container">
+        <h1>A Tool for Exchanging Currency</h1>
+        <p>Enter an amount in USD and select the country you would like the currency converted to.</p>
 
+        <form>
+            <label for="currency">Enter amount in USD:</label>
+            <input id="currency" type="text" name="location">
+            <button type="submit" class="btn-success" id="currencyExchange">Get the Exchange Rate</button>
+        </form>
+        <p id="showResponse"></p>
+    </div>
 </body>
 
 </html>
