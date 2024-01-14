@@ -16,14 +16,31 @@
 
 ## Setup/Installation Requirements
 
-* Update README.md for current project.
-* Enter the project name and author in both .json files.
-* DON'T FORGET TO UPDATE LICENSE AT THE TURNING OF THE YEAR!!!
-* Install all packages: $ npm install
-* Build Project using: $ npm run build
-* Lint JS files in the src dir with: $ npm run lint
-* Run tests with Jest using $ npm run test
-* ERASE THIS SECTION AFTER INSTALLATION
+### To clone this project and instal your own secure API:
+
+* In your terminal, navigate to the directory you wish to clone the repository and enter:
+    `git clone https://github.com/SquidIcarus/Currency_Exchange.git`
+
+* Launch the project in VSCode and open a new terminal.
+
+* Install webpack packages by entering:
+    `npm install`
+
+* Visit https://www.exchangerate-api.com/ and input your email address, then click the "Get Free Key" button.
+
+* Create an account with your email, first name and a password. Agree to the terms and click "Get Started!"
+
+* Access the dashboard to access your free API key.
+
+* Create a .env file in the currency_exchange root directory.
+
+* In the .env file, type `API_KEY=` followed by your new API key.
+
+* In the terminal, type: `npm run build`
+
+* then type: `npm run start` to run the application.
+
+
 
 ## Known Bugs
 
