@@ -16,7 +16,7 @@
 
 ## Setup/Installation Requirements
 
-### To clone this project and instal your own secure API:
+### To clone this project and install your own secure API:
 
 * In your terminal, navigate to the directory you wish to clone the repository and enter:
     `git clone https://github.com/SquidIcarus/Currency_Exchange.git`
@@ -41,11 +41,10 @@
 * then type: `npm run start` to run the application.
 
 
-
 ## Known Bugs
 
 * _Any known issues_
 * _should go here_
 
 ## License
-[Copyright © 2023 Landon Leadford](LICENSE.txt)
+[Copyright © 2024 Landon Leadford](LICENSE.txt)
